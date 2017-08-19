@@ -1,0 +1,16 @@
+HTML5
+NodeJS
+CSS
+PHP
+MongoDB
+
+Control de Codigo:
+GitHub
+User: mcrosignani
+Pass: mauro2996735
+
+SO:
+Linux
+
+Editor:
+NetBeans IDE
