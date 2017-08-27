@@ -6,3 +6,18 @@
 .carousel img {
     max-height: 350px;
 }
+
+.carousel-div {
+    margin-bottom: 4rem;
+}
+
+.card-img-local {
+    max-width: 350px;
+    max-height: 180px;
+}
+
+.footer {
+    clear: both;
+    padding-top: 10px;
+    background-color: #35393E;
+}
