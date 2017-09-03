@@ -1,3 +1,8 @@
+.body-local {
+    overflow-x: hidden;
+    background-color: #ffffcc;
+}
+
 .logo img {
     max-height: 100px;
     max-width: 100px;
@@ -11,6 +16,10 @@
     margin-bottom: 4rem;
 }
 
+.card div:hover {
+    background-color: #6666ff;
+}
+
 .card-img-local {
     max-width: 350px;
     max-height: 180px;
@@ -19,5 +28,62 @@
 .footer {
     clear: both;
     padding-top: 10px;
-    background-color: #35393E;
+    background-color: #0c1a1e;
+    font-family: 'Open Sans', sans-serif;
+    margin-top: 50px;
 }
+
+.heading-footer-local {
+    font-size: 21px; 
+    font-weight: 700; 
+    color: #d9d6d6; 
+    margin-bottom: 5px;
+}
+
+.footer-ul { 
+    list-style-type: none; 
+    padding-left: 0px; 
+    margin-left: 2px;
+}
+
+.footer-ul li { 
+    line-height: 29px; 
+    font-size: 12px;
+}
+
+.footer-ul li a { 
+    color: #a0a3a4; 
+    transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+}
+
+.footer-ul i { 
+    margin-right: 10px;
+}
+
+.footer-ul li a:hover {
+    transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+    color: #ff670f; 
+}
+
+.footer-link a { 
+    list-style-type:none; 
+    padding-left:0px; 
+    margin-left:2px;
+    line-height:29px; 
+    font-size:12px;
+}
+
+.footer-link a {
+    color:#a0a3a4; 
+    transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+}
+
+.footer-link a:hover {
+    transition: color 0.2s linear 0s, background 0.2s linear 0s; 
+    color: #ff670f; 
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+ }
