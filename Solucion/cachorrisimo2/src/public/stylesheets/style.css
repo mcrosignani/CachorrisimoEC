@@ -33,18 +33,17 @@ body {
   
   .site-heading .site-heading-upper {
     display: block;
-    font-size: 2rem;
+    font-size: 30px;
     font-weight: 800;
   }
   
   .site-heading .site-heading-lower {
-    font-size: 5rem;
+    font-size: 90px;
     font-weight: 100;
-    line-height: 4rem;
   }
   
   .section-top {
-    margin-top: 250px;
+    margin-top: 300px;
     margin-bottom: 5rem;
   }
 
@@ -74,7 +73,7 @@ body {
   }
   
   #mainNav {
-    background-color: rgba(47, 23, 15, 0.9);
+    background-color: rgba(47, 23, 15, 0.9); 
     font-family: 'Raleway';
   }
   
@@ -89,11 +88,12 @@ body {
   
   #mainNav .navbar-nav .nav-item.active .nav-link {
     color: #e6a756;
+    background-color: transparent;
   }
   
   @media (min-width: 992px) {
     #mainNav .navbar-nav .nav-item .nav-link {
-      font-size: 0.9rem;
+      font-size: 20px;
     }
     #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: rgba(255, 255, 255, 0.4);
@@ -105,7 +105,7 @@ body {
   
   .btn-xl {
     font-weight: 700;
-    font-size: 0.8rem;
+    font-size: 15px;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 2rem;
@@ -126,12 +126,14 @@ body {
       width: 60%;
       margin-top: 3rem;
       position: absolute;
+      border-radius: 10px;
+      padding: 50px;
     }
     .intro .intro-text .intro-button {
       width: 100%;
       left: 0;
       position: absolute;
-      bottom: -2rem;
+      bottom: -25px;
     }
   }
   
@@ -251,4 +253,19 @@ body {
   
   .font-weight-light {
     font-weight: 100 !important;
+  }
+
+  .img-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .ul-navbar {
+    padding-top: 15px;
+    list-style: none;
+  }
+
+  .li-navbar {
+    padding-left: 15px;
+    padding-right: 15px;
   }

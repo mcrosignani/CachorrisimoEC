@@ -37,10 +37,10 @@
       color: #fff;
       transition: border-bottom .2s ease-in , transform .2s ease-in-out;
   }
-  .navbar-doublerow .navbar-down ul>li>a:hover{
+  /* .navbar-doublerow .navbar-down ul>li>a:hover{
       border-bottom: 1px solid #fff;
       color: #fff;
-  }
+  } */
   .navbar-doublerow .navbar-down .dropdown{
       padding: 5px;
       color: #000;
@@ -53,7 +53,7 @@
   .navbar-doublerow.navbar-trans.afterscroll {
   }	
   .navbar-doublerow.navbar-trans.afterscroll {
-     top:-150px;
+     top:-220px;
   }	
   
   .flex-container {
