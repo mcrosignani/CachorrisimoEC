@@ -1,9 +1,19 @@
+html {
+  font-size: 16px;
+}
+
 body {
     font-family: 'Lora';
     background: linear-gradient(rgba(47, 23, 15, 0.65), rgba(47, 23, 15, 0.65)), url("../images/Fondo.jpeg");
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
   }
   
   h1,
@@ -33,17 +43,18 @@ body {
   
   .site-heading .site-heading-upper {
     display: block;
-    font-size: 30px;
+    font-size: 2rem;
     font-weight: 800;
   }
   
   .site-heading .site-heading-lower {
-    font-size: 90px;
+    font-size: 5rem;
     font-weight: 100;
+    line-height: 4rem;
   }
   
   .section-top {
-    margin-top: 300px;
+    margin-top: 20rem;
     margin-bottom: 5rem;
   }
 
@@ -93,7 +104,7 @@ body {
   
   @media (min-width: 992px) {
     #mainNav .navbar-nav .nav-item .nav-link {
-      font-size: 20px;
+      font-size: 0.9rem;
     }
     #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: rgba(255, 255, 255, 0.4);
@@ -105,7 +116,7 @@ body {
   
   .btn-xl {
     font-weight: 700;
-    font-size: 15px;
+    font-size: 1rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 2rem;
@@ -133,7 +144,7 @@ body {
       width: 100%;
       left: 0;
       position: absolute;
-      bottom: -25px;
+      bottom: -2rem;
     }
   }
   
