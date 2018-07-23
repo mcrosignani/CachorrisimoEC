@@ -26,3 +26,44 @@
     max-width: 100%;
     height: auto;
 }
+
+.img-peinado {
+    width: 21rem;
+    height: 25rem;
+}
+
+.img-indumentaria {
+    width: 52.5rem;
+    height: 27rem;
+}
+
+.img-alimentacion {
+    width: 26rem;
+    height: 35rem;
+}
+
+.btn-peinado {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -3rem;
+    text-align: right;
+}
+
+.btn-indumentaria {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -1rem;
+    text-align: right;
+    padding-right: 4rem;
+}
+
+.btn-alimentacion {
+    width: 100%;
+    left: 0;
+    position: absolute;
+    bottom: -2rem;
+    text-align: right;
+    padding-right: 4rem;
+}
