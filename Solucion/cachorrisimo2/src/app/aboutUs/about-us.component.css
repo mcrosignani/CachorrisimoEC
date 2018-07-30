@@ -1,0 +1,39 @@
+.main-text {
+    position: absolute;
+    top: 50px;
+    width: 96.66666666666666%;
+    color: #FFF;
+}
+
+.btn-min-block {
+    min-width: 170px;
+    line-height: 26px;
+}
+
+.btn-clear {
+    color: #FFF;
+    background-color: transparent;
+    border-color: #FFF;
+    margin-right: 15px;
+}
+
+.btn-clear:hover {
+    color: #000;
+    background-color: #FFF;
+}
+
+.card-container {
+    margin-top: 2rem;
+}
+
+.carousel-img {
+    width: 1200px;
+    height: 500px;
+}
+
+.gradient-div {
+    background: linear-gradient(to right, rgba(255,0,0,0), rgba(0,0,0,1));
+    height: 100%;
+    margin-top: -50px;
+    width: 1150px;
+}
