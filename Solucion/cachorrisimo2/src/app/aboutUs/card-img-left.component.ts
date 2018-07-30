@@ -6,4 +6,6 @@ import { Component, Input } from '@angular/core';
 })
 export class CardImgLeftComponent {
     @Input() title: string;
+    @Input() description : string;
+    @Input() imageSrc : string;
 }
