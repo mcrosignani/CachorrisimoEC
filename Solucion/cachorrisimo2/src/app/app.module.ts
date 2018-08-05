@@ -10,6 +10,7 @@ import { FooterComponent } from './footer/footer-component';
 import { AboutUsComponent } from './aboutUs/about-us.component';
 import { CardImgLeftComponent } from './aboutUs/card-img-left.component';
 import { CardImgRightComponent } from './aboutUs/card-img-right.component';
+import { StoreComponent } from './store/store.component';
 
 @NgModule({
   declarations: [
@@ -20,14 +21,16 @@ import { CardImgRightComponent } from './aboutUs/card-img-right.component';
     FooterComponent,
     AboutUsComponent,
     CardImgLeftComponent,
-    CardImgRightComponent
+    CardImgRightComponent,
+    StoreComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent },
       { path: 'products', component: ProductsComponent },
-      { path: 'aboutUs', component: AboutUsComponent }
+      { path: 'aboutUs', component: AboutUsComponent },
+      { path: 'store', component: StoreComponent }
     ])
   ],
   providers: [],
